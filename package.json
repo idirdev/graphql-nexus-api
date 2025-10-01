@@ -1,0 +1,30 @@
+{
+  "name": "graphql-nexus-api",
+  "version": "1.0.0",
+  "description": "GraphQL API built with Apollo Server and TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "graphql",
+    "apollo-server",
+    "typescript",
+    "api"
+  ],
+  "author": "idirdev",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "graphql": "^16.10.0",
+    "graphql-tag": "^2.12.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3"
+  }
+}
