@@ -256,3 +256,20 @@ query {
 ## License
 
 MIT
+
+---
+
+## Français
+
+**GraphQL Nexus API** est une API GraphQL complète construite avec Apollo Server 4 et TypeScript. Elle inclut des opérations CRUD complètes pour les utilisateurs, publications et commentaires, une authentification par rôle (ADMIN/USER), une gestion des erreurs typées, ainsi qu'une couche de données en mémoire facilement remplaçable par n'importe quelle base de données.
+
+### Installation
+
+```bash
+npm install
+npm run dev
+```
+
+### Utilisation
+
+Le serveur démarre sur **http://localhost:4000** avec Apollo Sandbox activé. Pour s'authentifier, transmettez un header `Authorization: Bearer user-1` (ADMIN) ou `Bearer user-2` (USER). Vous pouvez ensuite exécuter des requêtes et mutations GraphQL pour gérer les utilisateurs, publications et commentaires.
